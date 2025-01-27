@@ -432,7 +432,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6056e48a-e319-4f49-bad6-041f51f9d7b3)
   )
-  (wire (pts (xy 156.21 127) (xy 156.21 137.16))
+  (wire (pts (xy 156.21 127) (xy 156.21 133.35))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 63f811da-1945-4f70-8bd3-b426cd92baf5)
   )
@@ -576,17 +576,17 @@
     (pin "2" (uuid 96b58584-3891-4eb5-b2e3-d807bf56a663))
   )
 
-  (symbol (lib_id "power:GND") (at 156.21 137.16 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 156.21 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 509457db-eedd-4ad9-89dd-afa4c46733b6)
-    (property "Reference" "#PWR?" (id 0) (at 156.21 143.51 0)
+    (property "Reference" "#PWR0101" (id 0) (at 156.21 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 156.21 142.24 0))
-    (property "Footprint" "" (id 2) (at 156.21 137.16 0)
+    (property "Value" "GND" (id 1) (at 156.21 138.43 0))
+    (property "Footprint" "" (id 2) (at 156.21 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 156.21 137.16 0)
+    (property "Datasheet" "" (id 3) (at 156.21 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cac538b8-61d9-4be1-983f-cdae86677cd5))
@@ -692,7 +692,7 @@
 
   (symbol_instances
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/85762fc6-4dad-4d00-b3f3-d625c47e2b72"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
